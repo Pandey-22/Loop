@@ -51,14 +51,14 @@
     
     
 
-# n=int(input("enter the number"))
-# i=1
-# p=1
-# while i<=n:
-#     j=1
-#     while j<=i:
-#         print(chr(64+p),end=" ")
-#         p=p+1
-#         j=j+1
-#     print()
-#     i=i+1
+n=int(input("enter the number"))
+i=1
+p=1
+while i<=n:
+    j=1
+    while j<=i:
+        print(chr(64+p),end=" ")
+        p=p+1
+        j=j+1
+    print()
+    i=i+1
